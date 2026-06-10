@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+
+# analysis scratch — don't commit target binaries or extracted artifacts
+*.so
+*.apk
+*.aab
+*.dex
+*.bin
+*.spo
+scratch/
+samples/
